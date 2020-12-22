@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
 * {
   margin: 0;
+  
 }
 body {
   background-image: url(/img/fondo.jpg);
@@ -38,7 +39,6 @@ div:hover {
   background-image: url(img/abajo-2.png);
 }
 nav {
-  bottom: 0;
   position: sticky;
   top: 0;
   width: 900px;
@@ -59,6 +59,45 @@ nav *:hover {
 }
 main {
   width: 900px;
-  margin: auto;
+  margin: 0 auto;
   background-color: white;
+}
+main header h1 {
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+}
+main header h3 {
+  color: black;
+  font-style: italic;
+  font-family: "Merriweather", serif;
+  font-size: 150%;
+}
+main header img {
+  width: 800px;
+  height: auto;
+}
+article{
+  padding: 0;
+  margin: 10px 40px;
+  width: 360px;
+  display: inline-block;
+  text-align: center;
+}
+article * {
+  margin: 3% auto;
+}
+article h1{
+  font-size: 3em;
+}
+article img {
+  width: 330px;
+  height: auto;
+}
+footer{
+  width: 900px;
+  margin: 0 auto 300px;
+  background-color: #cad1ce;
+}
+footer input[type="text"],label,fieldset,button{
+  margin: 20px 40px;
 }
