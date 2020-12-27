@@ -32,14 +32,14 @@ body {
   font-size: 2em;
   font-style: italic;
 }
-.cabecera div {
+.cabecera div a {
   margin: 50px auto;
   width: 71px;
   height: 71px;
-  background-image: url(img/abajo-1.png);
+  content: url(img/abajo-1.png)
 }
-.cabecera div:hover {
-  background-image: url(img/abajo-2.png);
+.cabecera div a:hover {
+  content: url(img/abajo-2.png);
 }
 /*MENU*/
 nav {
@@ -156,3 +156,9 @@ button{
   color:  #484b50;
   background-color:  #cad1ce;
 }
+
+/*js*/
+.seleccion{
+  background-color: #f8e0b9;
+}
+
