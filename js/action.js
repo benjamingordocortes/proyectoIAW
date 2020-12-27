@@ -19,6 +19,3 @@ $(document).ready(function () {
 
 });
 
-
-/*
-$("." + rut).prop("checked", true);*/
