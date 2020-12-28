@@ -9,7 +9,6 @@ $(document).ready(function () {
         } else {
             $("." + rut).prop("checked", true);
         }
-
     });
 
     $("input[type=checkbox]").on("click", function (et) {
